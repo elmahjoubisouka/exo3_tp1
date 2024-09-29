@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#95a5a6 "
+        android:text="E-certificates"
+        android:textSize="30dp"
+        android:visibility="visible"
+        android:textColor="#f0f3f4 "/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="1. le pattern MVC signifie :"
+        android:textSize="20sp"
+        android:textColor="#34495e"/>
+
+
+    <CheckBox
+        android:id="@+id/choix1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiple version combined"
+        android:textSize="18dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-15dp"
+        android:textColor="#34495e"/>
+
+    <CheckBox
+        android:id="@+id/choix2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model View Controler"
+        android:textSize="18dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-15dp"
+        android:textColor="#34495e"/>
+    <CheckBox
+        android:id="@+id/choix3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mandatory Validated Controls "
+        android:textSize="18dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-15dp"
+        android:textColor="#34495e"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="2. la syntaxe $[x] est permise dans une JSP :"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#34495e"/>
+
+        <RadioButton
+            android:id="@+id/radioOui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oui"
+            android:textSize="18sp"
+            android:layout_marginTop="-15dp"
+            android:layout_marginStart="20dp"
+            android:textColor="#34495e"/>
+
+        <!-- RadioButton Non -->
+        <RadioButton
+            android:id="@+id/radioNon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non"
+            android:textSize="18sp"
+            android:layout_marginStart="20dp"
+            android:textColor="#34495e"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <!-- Button Quitter -->
+        <Button
+            android:id="@+id/btnQuitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quitter"
+            android:backgroundTint="#e74c3c"
+            android:textColor="#ffffff"
+            android:layout_marginEnd="20dp"/>
+
+        <!-- Button Suivant -->
+        <Button
+            android:id="@+id/btnSuivant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suivant"
+            android:backgroundTint="#2c3e50  "
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
