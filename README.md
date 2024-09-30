@@ -23,3 +23,9 @@ Cette application Android pose deux questions aux utilisateurs concernant les co
 1. **Cloner le dépôt** :
    ```bash
    git clone https://github.com/elmahjoubisouka/exo3_tp1.git
+
+## Demonstration
+
+https://github.com/user-attachments/assets/c0b7c97f-febe-4ea7-837f-6273d35177a0
+
+
